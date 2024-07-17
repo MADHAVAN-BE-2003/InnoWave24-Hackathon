@@ -1,4 +1,43 @@
-# SpeechCraft
+# Speech Craft
+
+## Overview
+
+Speech Craft is a project designed to process speech signals in noisy environments using deep learning models and transmit them to Bluetooth audio devices. The project consists of a Flutter-based frontend for mobile app interaction and a Python-based backend for processing.
+
+## Installation
+
+### Frontend (Flutter)
+
+1. Clone the repository to your local machine.
+2. Navigate to the `Flutter-Frontend/speech_craft` directory.
+3. Run `flutter run` to launch the Flutter app on your emulator or connected device.
+
+### Backend (Python)
+
+1. Navigate to the `Python-Backend` directory.
+2. Install dependencies by running `pip install -r requirements.txt`.
+3. Run `python app.py` to start the Flask server.
+
+## Usage
+
+1. Launch the Speech Craft app on your mobile device.
+2. Record or upload a voice sample.
+3. Use the app to process speech signals (e.g., speech separation, enhancement).
+4. Connect your Bluetooth audio device to hear the processed speech signals.
+
+## Technologies Used
+
+- **Flutter:** Cross-platform framework for mobile app development.
+- **Python:** Backend language for processing and serving data.
+- **Flask:** Python web framework used for building the backend server.
+- **Speech Processing:** Utilizes deep learning models for speech separation and enhancement.
+- **Bluetooth:** Wireless communication protocol for audio transmission.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+<!-- # SpeechCraft
 
 ## Overview
 
@@ -41,4 +80,4 @@ To use SpeechCraft, follow these steps:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. -->
