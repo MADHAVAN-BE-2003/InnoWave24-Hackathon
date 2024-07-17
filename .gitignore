@@ -1,0 +1,56 @@
+# Flutter specific
+Flutter-Frontend/speech_craft/build/
+Flutter-Frontend/speech_craft/ios/Flutter/.last_build_id
+Flutter-Frontend/speech_craft/.flutter-plugins
+Flutter-Frontend/speech_craft/.flutter-plugins-dependencies
+Flutter-Frontend/speech_craft/.packages
+Flutter-Frontend/speech_craft/.pub-cache
+Flutter-Frontend/speech_craft/.pub
+Flutter-Frontend/speech_craft/.metadata
+Flutter-Frontend/speech_craft/*.lock
+
+# Android specific
+Flutter-Frontend/speech_craft/android/.gradle
+Flutter-Frontend/speech_craft/android/app/build
+Flutter-Frontend/speech_craft/android/local.properties
+
+# iOS specific
+Flutter-Frontend/speech_craft/ios/Pods
+Flutter-Frontend/speech_craft/ios/.symlinks
+Flutter-Frontend/speech_craft/ios/Flutter/Flutter.framework
+Flutter-Frontend/speech_craft/ios/Flutter/Flutter.podspec
+
+# Python specific
+Python-Backend/__pycache__/
+Python-Backend/*.pyc
+Python-Backend/*.pyo
+Python-Backend/*.pyd
+Python-Backend/.env
+Python-Backend/.venv/
+Python-Backend/env/
+Python-Backend/venv/
+Python-Backend/ENV/
+Python-Backend/env.bak/
+Python-Backend/venv.bak/
+Python-Backend/*.egg
+Python-Backend/*.egg-info/
+Python-Backend/.eggs/
+Python-Backend/*.manifest
+Python-Backend/*.spec
+Python-Backend/pip-log.txt
+Python-Backend/pip-delete-this-directory.txt
+
+# Environment Variables
+.env
+
+# IDE specific
+.idea/
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
